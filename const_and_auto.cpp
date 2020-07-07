@@ -1,3 +1,6 @@
+//const_and_auto.cpp
+//g++ -std=c++11 -o a const_and_auto.cpp 
+
 #include <iostream>
 #include <string>
 
