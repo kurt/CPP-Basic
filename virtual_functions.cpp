@@ -27,4 +27,7 @@ int main(){
     Player* example_player = new Player("Kurt");
     PrintName(example_player);
     // std::cout << example_player->GetName() << std::endl;
+
+    delete example_entity;
+    delete example_player;
 }
