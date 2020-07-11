@@ -8,6 +8,13 @@
 - Headers in  cpp
 - Constructors
 
+**My To Do**
+
+- References
+- play around more with const pointers etc and volatile
+- Namespaces and including them in headers and multiple files
+- Show OOP concepts - encapsulation, polymorphism, etc
+
 **Basic Usage**
 
 Each script has a comment at the top which shows the intended run operation. SOme header files are for some source files. 
@@ -22,7 +29,7 @@ Each script has a comment at the top which shows the intended run operation. SOm
 - my_print_template.cpp: a template that prints anything that you send to it
 - namespace.hpp: currently not used
 - namespaces.cpp: calls two different functions from two different namespaces
-- templates.cpp: a template function that returns which is greater, also prints __ FILE __ Predefined C++ Macros
+- templates.cpp: a template inline function that returns which is greater, also prints __ FILE __ Predefined C++ Macros
 - virtual_functions.cpp: shows virtual functions and how they work in subclasses
 
 **Subdirectories**
