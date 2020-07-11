@@ -33,4 +33,6 @@ int main(){
     Entity my_entity;
     my_entity.SetX(10);
     PrintEntity(my_entity);
+    my_entity.SetX(3);
+    PrintEntity(my_entity);
 }//end of main

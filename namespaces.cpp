@@ -1,3 +1,6 @@
+// g++ -std=c++11 -o test namespaces.cpp 
+
+
 #include <iostream>
 using namespace std;
 
