@@ -14,6 +14,8 @@
 - play around more with const pointers etc and volatile
 - Namespaces and including them in headers and multiple files
 - Show OOP concepts - encapsulation, polymorphism, etc
+- threads
+- assert 
 
 **Basic Usage**
 

@@ -19,6 +19,10 @@ namespace kurts_space{
 		int id;
 		int desk;
 		void func2(){cout << "Inside kurts space" << endl;}
+                void func4(){func3();}
+
+          private:
+             void func3(){cout << "A private function" << endl;}
 	};
 }
 
