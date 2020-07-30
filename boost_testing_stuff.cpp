@@ -33,3 +33,5 @@ BOOST_AUTO_TEST_CASE(Arguments){
   mc_solver::utils::ContactWrenchMatrixToLambdaMatrix ContactWrenchMatrixToLambdaMatrix(const mc_solver::QPSolver & solver,const tasks::qp::ContactId & id);
 
 }
+
+

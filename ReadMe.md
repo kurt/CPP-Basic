@@ -7,6 +7,8 @@
 - Const and auto keywords
 - Headers in  cpp
 - Constructors
+- Unique Pointers
+- Shared  Pointers
 
 **My To Do**
 
@@ -15,7 +17,7 @@
 - Namespaces and including them in headers and multiple files
 - Show OOP concepts - encapsulation, polymorphism, etc
 - threads
-- Smart Pointers.....
+- Shared pointers in different namespace calls... 
 - assert - I have done this in cmake-sandbox
 
 **Basic Usage**
