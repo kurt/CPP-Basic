@@ -1,4 +1,4 @@
-#ifndef SHARED_HEADER_H
+#ifndef    SHARED_HEADER_H
 #define    SHARED_HEADER_H
 
 
@@ -25,10 +25,11 @@ public:
 namespace shared_pointer
 {
      std::shared_ptr<Entity> the_og_entity = std::make_shared<Entity>();
-}
+} //end of namespace
 
-void func_create_pointer(){ 
+std::shared_ptr<Entity> func_create_pointer(){ 
     std::shared_ptr<Entity> the_created_entity = std::make_shared<Entity>();
+    return the_created_entity;
 }
 
 #endif //end of header
