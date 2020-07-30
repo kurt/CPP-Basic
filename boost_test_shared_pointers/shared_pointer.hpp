@@ -1,4 +1,6 @@
-//#pragma once
+#ifndef SHARED_HEADER_H
+#define    SHARED_HEADER_H
+
 
 #include <iostream>
 #include <memory>
@@ -24,3 +26,9 @@ namespace shared_pointer
 {
      std::shared_ptr<Entity> the_og_entity = std::make_shared<Entity>();
 }
+
+void func_create_pointer(){ 
+    std::shared_ptr<Entity> the_created_entity = std::make_shared<Entity>();
+}
+
+#endif //end of header
