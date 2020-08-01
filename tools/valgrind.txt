@@ -1,0 +1,13 @@
+# https://www.valgrind.org/docs/manual/quick-start.html#quick-start.intro
+# how to use valgrind 
+
+valgrind ./executable.out #needs the .out from the compiler
+
+#-----------------------------------------------------------
+gcc -o test -g test.c
+
+#This creates an executable named test. To check for memory leaks during the execution of test, try
+
+valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes ./test
+
+#-----------------------------------------------------------

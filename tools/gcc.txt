@@ -1,0 +1,8 @@
+
+
+fsanitizer
+----------------------
+ -fsanitize=address #option # memory sanitizer...
+ -fprofile-arcs -ftest-coverage # get profile coverage data
+ -g # debug
+

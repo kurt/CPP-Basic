@@ -13,5 +13,5 @@ BOOST_AUTO_TEST_CASE(SharedPointerTest){
     std::shared_ptr<Entity> copy_og_entity = the_og_entity; // copy the og pointer
     copy_og_entity -> PrintFunc(); // calls the function of the_og_entity
     std::shared_ptr<Entity> test_entity = func_create_pointer(); //creates its own object 
-    test_entity -> PrintFunc();
+    test_entity -> PrintFunc(); //call the PrintFunc - its own...
 }

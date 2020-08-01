@@ -9,6 +9,8 @@
 - Constructors
 - Unique Pointers
 - Shared  Pointers
+- Namespaces and including them in headers and multiple files
+- Shared pointers in different namespace calls... 
 
 **My To Do**
 
@@ -17,7 +19,6 @@
 - Namespaces and including them in headers and multiple files
 - Show OOP concepts - encapsulation, polymorphism, etc
 - threads
-- Shared pointers in different namespace calls... 
 - assert - I have done this in cmake-sandbox
 
 **Basic Usage**
@@ -46,4 +47,8 @@ Each script has a comment at the top which shows the intended run operation. SOm
 /include:
 
 - header_to_link file included in test_header_link.cpp 
+
+/boost_test_shared_pointers
+
+- Does boost tests with shared pointers and structures
 
