@@ -37,6 +37,7 @@ Each script has a comment at the top which shows the intended run operation. SOm
 - namespaces.cpp: calls two different functions from two different namespaces
 - templates.cpp: a template inline function that returns which is greater, also prints __ FILE __ Predefined C++ Macros
 - virtual_functions.cpp: shows virtual functions and how they work in subclasses
+- enum.cpp - shows a basic usage of an enumeration
 
 **Subdirectories**
 
