@@ -1,0 +1,23 @@
+# git commands
+---------------------------------
+#How to fetch a branch from an external repo - like github and merge to yours
+---------------------------------
+git fetch remote-url remote-branch:remote-branch-local-name
+git checkout branch-you-want-to-merge-with 
+git merge remote-branch-local-name      # merge
+git branch -d remote-branch-local-name	# delete the external branch
+
+---------------------------------
+# How to get a remote repo and rename its branch and track it
+---------------------------------
+git fetch other-persons-repo-url their-branch-name:your-new-branch-name
+git push origin -u your-new-branch-name   # assuming you have an origin
+
+---------------------------------
+# How to rename a branch local and remote 
+---------------------------------
+git checkout branch-you-want-to-rename
+git branch -m new-name
+#remote 
+git push origin :branch-you-want-to-rename new-name
+git push origin -u new-name
