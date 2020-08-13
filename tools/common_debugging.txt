@@ -1,3 +1,9 @@
+Categories Explained
+SOLUTION: - something that worked
+THOUGHTS: - Thoughts on the source of the problem
+NOTES: - some insight
+THINGS ATTEMPTED: - a record of things that were tried
+
 #-------------------------------------------------------------------
 main.cpp:5:28: error: ‘cout’ is not a member of ‘std’
      virtual void method() {std::cout << "from Base" << std::endl;}
@@ -5,5 +11,5 @@ main.cpp:5:28: error: ‘cout’ is not a member of ‘std’
 main.cpp:5:56: error: ‘endl’ is not a member of ‘std’
      virtual void method() {std::cout << "from Base" << std::endl;}
 
-NOTES: this is when there is a "#include <iostream>" missing
+SOLUTION: this is when there is a "#include <iostream>" missing
 #-------------------------------------------------------------------
