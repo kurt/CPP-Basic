@@ -53,3 +53,15 @@ Each script has a comment at the top which shows the intended run operation. SOm
 
 - Does boost tests with shared pointers and structures
 
+/CPP-Udacity
+
+- Some Code from the free udacity course I took
+
+/tools 
+
+- useful commands and tool usage for cpp and c
+
+/WindowsExe
+
+- Windows executables versus linux
+
