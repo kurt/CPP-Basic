@@ -1,4 +1,4 @@
-// g++ -o posix_threads basic_posix_threads.cpp 
+// g++ -o posix_threads basic_posix_threads.cpp -lpthread
 
 #include <iostream>
 #include <cstdlib>
