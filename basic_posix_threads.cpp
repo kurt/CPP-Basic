@@ -8,6 +8,7 @@ using namespace std;
 
 #define NUM_THREADS 5
 
+//The function that is called by each thread
 void *PrintHello(void *threadid) {
    long tid;
    tid = (long)threadid;

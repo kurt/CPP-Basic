@@ -11,6 +11,8 @@
 - Shared  Pointers
 - Namespaces and including them in headers and multiple files
 - Shared pointers in different namespace calls... 
+- Posix Threads
+- Basic References
 
 **My To Do**
 
@@ -18,7 +20,6 @@
 - play around more with const pointers etc and volatile
 - Namespaces and including them in headers and multiple files
 - Show OOP concepts - encapsulation, polymorphism, etc
-- threads
 - assert - I have done this in cmake-sandbox
 
 **Basic Usage**
