@@ -1,8 +1,12 @@
-
+online resource: https://gcc.gnu.org/onlinedocs/gcc-9.1.0/gcc/Instrumentation-Options.html
 
 fsanitizer
 ----------------------
  -fsanitize=address #option # memory sanitizer...
+
+coverage
+----------------------
  -fprofile-arcs -ftest-coverage # get profile coverage data
  -g # debug
+ - O3 #branch coverage 
 

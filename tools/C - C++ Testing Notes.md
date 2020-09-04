@@ -1,8 +1,10 @@
 # C/C++ Testing Notes and References
 
+# To Read
 
+https://petroware.no/html/unittesting.html
 
-
+http://alexott.net/en/cpp/CppTestingIntro.html
 
 # In Progress
 

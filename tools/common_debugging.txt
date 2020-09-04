@@ -13,3 +13,11 @@ main.cpp:5:56: error: ‘endl’ is not a member of ‘std’
 
 SOLUTION: this is when there is a "#include <iostream>" missing
 #-------------------------------------------------------------------
+error: no matching dunction for call to 'mockStabilizer:: .....
+    testres=s.computeZMP(& wrenchtest);
+
+NOTES:
+ there is a function computeZMP and it is fine....
+
+SOLUTION: remove the & and it works.... 
+#-------------------------------------------------------------------
