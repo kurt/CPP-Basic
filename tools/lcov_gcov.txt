@@ -1,0 +1,10 @@
+
+
+useful functions:
+
+__gcov_flush() - collects the coverage data immediately from file
+
+
+
+__________________________________________________________
+lcov 

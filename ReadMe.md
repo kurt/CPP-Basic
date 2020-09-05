@@ -40,6 +40,7 @@ Each script has a comment at the top which shows the intended run operation. SOm
 - templates.cpp: a template inline function that returns which is greater, also prints __ FILE __ Predefined C++ Macros
 - virtual_functions.cpp: shows virtual functions and how they work in subclasses
 - enum.cpp - shows a basic usage of an enumeration
+- signal_handling.cpp: handles a SIGINT from command line, and when it does it flushes it using __gcov_flush()
 
 **Subdirectories**
 
