@@ -21,6 +21,7 @@
 - Namespaces and including them in headers and multiple files
 - Show OOP concepts - encapsulation, polymorphism, etc
 - assert - I have done this in cmake-sandbox
+- gcc profiling
 
 **Basic Usage**
 
