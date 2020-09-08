@@ -1,7 +1,12 @@
+//g++ -std=c++11 -o sig_hand signal_handling.cpp
+
+//#include <signal.h>
 #include <iostream>
 #include <csignal>
 #include <cstdlib>
-#include<unistd.h>
+#include <cstdio>
+#include <ctime>
+#include <unistd.h>
 
 extern "C" void __gcov_flush();
 
