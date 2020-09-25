@@ -1,0 +1,9 @@
+
+
+
+# get the errors
+cppcheck --force  --errorlist  .
+
+
+# save to a file using c std 11
+cppcheck --force --std=c11 . >cpp_check.txt
