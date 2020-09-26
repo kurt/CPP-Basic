@@ -1,0 +1,24 @@
+Running 4 test cases...
+Entering test suite "HelloC"
+Entering test case "subtractTest"
+test.c(40): info: check subtract(3,3)==0 passed
+Leaving test case "subtractTest"; testing time: 85mks
+Entering test case "call_subtractTest"
+test.c(44): info: check call_subtract()==-1 passed
+Leaving test case "call_subtractTest"; testing time: 64mks
+Entering test case "conditionalTest"
+Running Conditional Tests...
+This has been called
+test.c(49): info: check conditional(1)==1 passed
+That has been called
+test.c(50): info: check conditional(0)==1 passed
+an issue occured
+test.c(51): info: check conditional(10)==0 passed
+Leaving test case "conditionalTest"; testing time: 64mks
+Entering test suite "OtherTests"
+Entering test case "thisTest"
+test.c(59): info: check f==round(m*a) passed
+981.000061
+Leaving test case "thisTest"; testing time: 66mks
+Leaving test suite "OtherTests"
+Leaving test suite "HelloC"
