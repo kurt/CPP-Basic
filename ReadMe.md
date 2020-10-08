@@ -13,6 +13,7 @@
 - Shared pointers in different namespace calls... 
 - Posix Threads
 - Basic References
+- Tools: profiling, code coverage, memory sanitizer
 
 **My To Do**
 
@@ -21,7 +22,7 @@
 - Namespaces and including them in headers and multiple files
 - Show OOP concepts - encapsulation, polymorphism, etc
 - assert - I have done this in cmake-sandbox
-- gcc profiling
+- helper classes/ functions
 
 **Basic Usage**
 

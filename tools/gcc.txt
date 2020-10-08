@@ -10,3 +10,10 @@ coverage
  -g # debug
  - O3 #branch coverage 
 
+profiling
+----------------------
+-pg
+
+then:
+ gprof executable gmon.out > profile_report.txt
+

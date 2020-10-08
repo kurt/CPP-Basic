@@ -1,11 +1,12 @@
 //test.c
-//g++ --coverage -o ctest test.c -lboost_unit_test_framework
+//g++ --coverage -pg -o ctest test.c -lboost_unit_test_framework
 //./ctest --log_level=all >ctest_results.txt
 // or
 // ./ctest --log_level=all --output_format=XML >ctest_results.xml
 // gcov test.c
 // lcov --directory ~/repos/gcov-test --capture --output-file testout
 // genhtml testout 
+// gprof ctest gmon.out > profiling.txt
 #define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MODULE HelloC
 #include <boost/test/unit_test.hpp>
