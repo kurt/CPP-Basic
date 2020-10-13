@@ -62,25 +62,10 @@ void thread2Func(void){
 
 int main() {
   
-   /*
-  auto increment_and_print = [&counter]() {
-    for (int i = 0; i < 3; i++) {
-      counter.increment();
-      std::cout << std::this_thread::get_id() << ' ' << counter.get() << '\n';
- 
-      // Note: Writing to std::cout actually needs to be synchronized as well
-      // by another std::mutex. This has been omitted to keep the example small.
-    }
-  };*/
-  
- /* std::vector<std::thread> thread1;//(thread1Func);
-  std::vector<std::thread> thread2;//(thread2Func);
   thread1.push_back(std::thread(thread1Func));
   thread1.push_back(std::thread(thread1Func));
   thread2.push_back(std::thread(thread2Func));*/
-/* if (){
-     std::thread thread(thread1Func);
- }*/
+
  std::vector<std::thread> thread1vec;
  std::vector<std::thread> thread2vec;
  int new_image=1;
@@ -107,26 +92,10 @@ for (int i=0;i<6;i++){
 // std::thread thread3(thread2Func);
 // std::thread thread4(thread1Func);
 
-//while(1){
- /* for (auto &th : thread1) {
-    th.join();
-  }
-  for (auto &th : thread2) {
-    th.join();
-  }*/
-  /*std::this_thread::sleep_for (std::chrono::seconds(5));
-  thread1.push_back(std::thread(thread1Func));
-  for (auto &th : thread1) {
-    th.join();
-  }*/
 //  thread1.join();
 //  thread2.join();
 //  thread3.join();
 //  thread4.join();
-  //thread1.join();
-  //thread3.detach();
-  //thread4.detach();
-//}
-   std::this_thread::sleep_for (std::chrono::seconds(5));
+   std::this_thread::sleep_for (std::chrono::seconds(2));
 }
  
