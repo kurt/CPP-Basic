@@ -81,12 +81,32 @@ int main() {
 /* if (){
      std::thread thread(thread1Func);
  }*/
+ std::vector<std::thread> thread1vec;
+ std::vector<std::thread> thread2vec;
+ int new_image=1;
+ int new_person=1;
+int img_counter=0;
+int person_counter=0;
+for (int i=0;i<6;i++){
 
+ if(new_image){
+    
+    thread1vec.push_back(std::thread(thread1Func));
+    thread1vec.at(img_counter).join();
+    img_counter++;
+ }
 
- std::thread thread1(thread1Func);
- std::thread thread2(thread2Func);
- std::thread thread3(thread2Func);
- std::thread thread4(thread1Func);
+ if(new_person){   
+    thread2vec.push_back(std::thread(thread2Func));
+    thread2vec.at(person_counter).join();
+    person_counter++;
+ }
+}
+// std::thread thread1(thread1Func);
+// std::thread thread2(thread2Func);
+// std::thread thread3(thread2Func);
+// std::thread thread4(thread1Func);
+
 //while(1){
  /* for (auto &th : thread1) {
     th.join();
@@ -99,10 +119,10 @@ int main() {
   for (auto &th : thread1) {
     th.join();
   }*/
-  thread1.join();
-  thread2.join();
-  thread3.join();
-  thread4.join();
+//  thread1.join();
+//  thread2.join();
+//  thread3.join();
+//  thread4.join();
   //thread1.join();
   //thread3.detach();
   //thread4.detach();
