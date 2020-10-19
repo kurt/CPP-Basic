@@ -25,6 +25,6 @@ class ChildClass : public ParentClass{
 int main(){
    ChildClass cobj;
    cobj.child_func();
-
+   cobj.parent_func();
 
 }
