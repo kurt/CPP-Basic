@@ -13,3 +13,5 @@ __________________________________________________________
 lcov  --directory . --no-external  -c --output-file testout
 # remove certain paths
 lcov --remove testout "/build/*" "/test/*" -o cov_init2.info
+# generate file
+genhtml cov_init2.info --output-directory html

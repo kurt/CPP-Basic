@@ -1,6 +1,6 @@
-<TestLog><TestSuite name="HelloC"><TestCase name="subtractTest"><Info file="test.c" line="45"><![CDATA[check subtract(3,3)==0 passed]]></Info><TestingTime>123</TestingTime></TestCase><TestCase name="call_subtractTest"><Info file="test.c" line="49"><![CDATA[check call_subtract()==-1 passed]]></Info><TestingTime>101</TestingTime></TestCase><TestCase name="conditionalTest">Running Conditional Tests...
+<TestLog><TestSuite name="HelloC"><TestCase name="subtractTest"><Info file="test.c" line="46"><![CDATA[check subtract(3,3)==0 passed]]></Info><TestingTime>408</TestingTime></TestCase><TestCase name="call_subtractTest"><Info file="test.c" line="50"><![CDATA[check call_subtract()==-1 passed]]></Info><TestingTime>452</TestingTime></TestCase><TestCase name="conditionalTest">Running Conditional Tests...
 This has been called
-<Info file="test.c" line="54"><![CDATA[check conditional(1)==1 passed]]></Info>That has been called
-<Info file="test.c" line="55"><![CDATA[check conditional(0)==1 passed]]></Info>an issue occured
-<Info file="test.c" line="56"><![CDATA[check conditional(10)==0 passed]]></Info><TestingTime>104</TestingTime></TestCase><TestSuite name="OtherTests"><TestCase name="thisTest"><Info file="test.c" line="64"><![CDATA[check f==round(m*a) passed]]></Info>981.000061
-<TestingTime>111</TestingTime></TestCase></TestSuite></TestSuite></TestLog>
+<Info file="test.c" line="55"><![CDATA[check conditional(1)==1 passed]]></Info>That has been called
+<Info file="test.c" line="56"><![CDATA[check conditional(0)==1 passed]]></Info>an issue occured
+<Info file="test.c" line="57"><![CDATA[check conditional(10)==0 passed]]></Info><TestingTime>410</TestingTime></TestCase><TestSuite name="OtherTests"><TestCase name="thisTest"><Info file="test.c" line="65"><![CDATA[check f==round(m*a) passed]]></Info>981.000042
+<TestingTime>595</TestingTime></TestCase></TestSuite></TestSuite></TestLog>
