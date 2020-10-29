@@ -23,3 +23,8 @@ other options
 
 (gdb) frame 2 # will show more details about frame 2 of the stack
 
+
+# printing
+(gdb) printf "conf\n"
+(gdb) printf "%d value",var
+
