@@ -1,0 +1,4 @@
+virtual_functions.cpp:3:10: fatal error: 'iostream' file not found
+#include <iostream>
+         ^
+1 error generated.
