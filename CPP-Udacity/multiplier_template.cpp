@@ -12,6 +12,7 @@ int main()
     Multiplier<int> multi1;
     Multiplier<float> multi3;
     
+	//Use Template with integers
     int input1,input2;
 	cout << "enter a number" << "\n";
     cin>>input1;
@@ -22,7 +23,8 @@ int main()
     multi1.setM2(input2);
     multi1.setProduct();
     multi1.printEquation();
-    
+	
+    // use template with floats
     cout<<"\n";
     float input3, input4;
 	cout << "enter a number" << "\n";
