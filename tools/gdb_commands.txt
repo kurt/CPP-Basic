@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # gdb commands
 ---------------------------------
 gdb ./test_controller_ticker # run test_controller_ticker with gdb
@@ -23,3 +24,35 @@ other options
 
 (gdb) frame 2 # will show more details about frame 2 of the stack
 
+=======
+# gdb commands
+---------------------------------
+gdb ./test_controller_ticker # run test_controller_ticker with gdb
+(gdb) r --run_test=RUN --config.conf 10 # run the test case RUN, with config file 10 times
+---------------------------------
+other options
+(gdb) r timeout 5 --run_test=RUN --config.conf # kill process after 5 seconds
+(gdb)  r --run_test=RUN --config.conf --kill-after=5 # kill process after 5 seconds
+
+
+(gdb)  r timeout -s SIGINT 7 --run_test=RUN --/lipm/mc_rtc/build/tests/controllers/TestLIPMController/mc_rtc-TestLIPMController.conf  # send interrupt signal after 5 second timeout
+# POSIX IPC SIGs: https://en.wikipedia.org/wiki/Signal_(IPC) 
+---------------------------------
+
+# getting gdb to show lines of code:
+# https://jvns.ca/blog/2018/04/28/debugging-a-segfault-on-linux/
+
+ ulimit -c unlimited #before starting my program
+ sudo sysctl -w kernel.core_pattern=/tmp/core-%e.%p.%h.%t
+
+# now run program with gdb and do back trace.
+---------------------------------
+
+(gdb) frame 2 # will show more details about frame 2 of the stack
+
+
+# printing
+(gdb) printf "conf\n"
+(gdb) printf "%d value",var
+
+>>>>>>> 03f36445c7e84c7b9b58792a134d1df0617bbc85

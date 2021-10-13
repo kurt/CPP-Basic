@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 useful functions:
@@ -8,3 +9,22 @@ __gcov_flush() - collects the coverage data immediately from file
 
 __________________________________________________________
 lcov 
+=======
+
+
+useful functions:
+
+__gcov_flush() - collects the coverage data immediately from file
+
+
+
+__________________________________________________________
+#lcov 
+
+# dont include external libraries
+lcov  --directory . --no-external  -c --output-file testout
+# remove certain paths
+lcov --remove testout "/build/*" "/test/*" -o cov_init2.info
+# generate file
+genhtml cov_init2.info --output-directory html
+>>>>>>> 03f36445c7e84c7b9b58792a134d1df0617bbc85
