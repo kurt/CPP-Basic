@@ -28,3 +28,11 @@ git push origin -u new-name
 git config --global diff.tool meld 
 # now use this (use it like diff)
 git difftool 4g5y7b
+
+---------------------------------
+# How to amend commit messages
+---------------------------------
+git commit --amend
+# Don’t amend pushed commits as it may potentially cause a lot of problems to your colleagues
+
+
