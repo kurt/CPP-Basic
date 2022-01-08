@@ -21,3 +21,10 @@ git branch -m new-name
 #remote 
 git push origin :branch-you-want-to-rename new-name
 git push origin -u new-name
+
+---------------------------------
+# How to use a merge tool or diff tool
+---------------------------------
+git config --global diff.tool meld 
+# now use this (use it like diff)
+git difftool 4g5y7b
