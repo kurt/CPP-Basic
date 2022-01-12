@@ -66,7 +66,7 @@ int main() {
   
   thread1.push_back(std::thread(thread1Func));
   thread1.push_back(std::thread(thread1Func));
-  thread2.push_back(std::thread(thread2Func));*/
+  thread2.push_back(std::thread(thread2Func));
 
  std::vector<std::thread> thread1vec;
  std::vector<std::thread> thread2vec;
