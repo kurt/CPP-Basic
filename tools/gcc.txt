@@ -31,4 +31,6 @@ profiling
 then:
  gprof executable gmon.out > profile_report.txt
 
->>>>>>> 03f36445c7e84c7b9b58792a134d1df0617bbc85
+Mapping  (for g++) - to show the mapping of the linker
+----------------------
+ g++ -std=c++11 external_C.cpp -o externC  -Xlinker -Map=output.map 
