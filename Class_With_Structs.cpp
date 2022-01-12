@@ -27,11 +27,9 @@ class childMoreComplexClass : public MoreComplexClass
     childMoreComplexClass(productStruct ps) : MoreComplexClass(ps){};
     
 
-
 };
 
 int main(){
-   productStruct ps;
-   childMoreComplexClass cmcc(ps);
-
+   //productStruct ps;
+   childMoreComplexClass cmcc(productStruct ps);
 }
