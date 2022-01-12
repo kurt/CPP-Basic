@@ -1,3 +1,5 @@
+//How to compile this: 
+
 #include <iostream>
 #include <mutex>  
 #include <shared_mutex>
