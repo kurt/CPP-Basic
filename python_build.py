@@ -49,6 +49,9 @@ os.system("valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-
 
 os.system("valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes --log-file=build/artifacts/construct_memcheck.txt ./build/construct")
 
+os.system("txt2html build/artifacts/basic_references_memcheck.txt > build/artifacts/basic_references_memcheck.html")
+
+
 print("---------------------------------")
 print(CRED + "Done" + CEND)
 print("---------------------------------")
