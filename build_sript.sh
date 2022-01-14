@@ -1,4 +1,9 @@
-rm -r  build
+FILE=/build
+if [ -d "$FILE" ]; then
+    echo "removing $FILE directory."
+    rm -r  build
+fi
+
 mkdir build
 
 #for f in *.cpp; do g++ -std=c++11 $f -o build/$f; done
