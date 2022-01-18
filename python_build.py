@@ -29,9 +29,19 @@ try:
     assert(os.system("mkdir build")==0)
     assert(os.system("mkdir build/artifacts")==0)
 
+    print("---------------------------------")
+    print(CRED + "Cpp Check" + CEND)
+    print("---------------------------------")
+    assert(os.system("cppcheck --force --std=c11 . >cpp_check.txt")==0)
+    print("---------------------------------")
+    print(CRED + "Done Cpp Check" + CEND)
+    print("---------------------------------")
+
     assert(os.system("g++ -std=c++11 templates.cpp -o build/templates")==0)
     assert(os.system("g++ -std=c++11 basic_references.cpp -o build/basic_references")==0)
     assert(os.system("g++ -std=c++11 constructors.cpp -o build/construct ")==0)    
+
+
 
     #os.system("g++ -std=c++11 -o boost boost_testing_stuff.cpp -lboost_unit_test_framework -lboost_system")
 
@@ -59,7 +69,7 @@ for filename in os.listdir(directory):
 #assert(os.system("./build/templates")==0)
 
 assert(os.system("valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes --log-file=build/artifacts/templates_memcheck.txt ./build/templates")==0)
-
+#ToDO - make sure that the valgrind passes!!!
 
 assert(os.system("valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes --log-file=build/artifacts/basic_references_memcheck.txt ./build/basic_references")==0)
 
