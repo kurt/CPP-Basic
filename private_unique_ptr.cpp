@@ -10,7 +10,7 @@ using namespace std;
 class ParentEntity{
    public:
    ParentEntity(){cout<< "Create Parent" << "\n";};
-   ~ParentEntity(){cout << "Destroy Pareny" <<"\n";};
+   ~ParentEntity(){cout << "Destroy Parent" <<"\n";};
    void function_call(){
       cout << "function call" << "\n";
    }
