@@ -68,3 +68,11 @@ Each script has a comment at the top which shows the intended run operation. SOm
 /WindowsExe
 
 - Windows executables versus linux
+
+**Tools**
+
+- lcov - https://www.howtoinstall.me/ubuntu/18-04/lcov/
+- gcov - 5.4.0
+- txt2html - http://manpages.ubuntu.com/manpages/bionic/man1/txt2html.1p.html
+- boost - https://www.boost.org/doc/libs/1_78_0/more/getting_started/unix-variants.html#get-boost
+- boost unit test - https://www.boost.org/doc/libs/1_65_1/libs/test/doc/html/boost_test/adv_scenarios/build_utf.html
